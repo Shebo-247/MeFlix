@@ -14,10 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.youtube.player.YouTubePlayer;
 import com.joooonho.SelectableRoundedImageView;
 import com.shebo.meflix.R;
-import com.shebo.meflix.YoutubePlayer;
 import com.shebo.meflix.models.Cast;
 import com.shebo.meflix.models.Country;
 import com.shebo.meflix.models.Genre;
@@ -36,9 +34,9 @@ import java.util.List;
 
 public class MovieActivity extends AppCompatActivity {
 
-    private static String IMAGE_BASE_URL = "http://image.tmdb.org/t/p/w780";
-    private static String YOUTUBE_VIDEO_URL = "http://www.youtube.com/watch?v=%s";
-    private static String YOUTUBE_THUMBNAIL_URL = "http://img.youtube.com/vi/%s/0.jpg";
+    private static String IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w780";
+    private static String YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=%s";
+    private static String YOUTUBE_THUMBNAIL_URL = "https://img.youtube.com/vi/%s/0.jpg";
 
     public static String MOVIE_ID = "movie_id";
 

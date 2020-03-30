@@ -1,4 +1,4 @@
-package com.shebo.meflix;
+package com.shebo.meflix.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 

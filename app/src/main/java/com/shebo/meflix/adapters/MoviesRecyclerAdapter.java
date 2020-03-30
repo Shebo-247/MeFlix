@@ -18,7 +18,7 @@ import java.util.List;
 
 public class MoviesRecyclerAdapter extends RecyclerView.Adapter<MoviesRecyclerAdapter.MovieViewHolder> {
 
-    public static final String IMAGE_BASE_URL = "http://image.tmdb.org/t/p/w500";
+    public static final String IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
     private List<Movie> allMovies;
     private String type;
